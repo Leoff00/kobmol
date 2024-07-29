@@ -1,0 +1,14 @@
+{
+  "name": "kobmol",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "t": "clear && bun test src/index.test.ts"
+  }
+}
